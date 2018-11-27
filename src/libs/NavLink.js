@@ -20,7 +20,7 @@ const OwnLinkItem = (props) =>{
  
 export const OwnNavLink = (props) => {
     let Item = withRouter(OwnLinkItem)
-    console.log(props);
+   
     
     return (
         <Item {...props} ></Item>
